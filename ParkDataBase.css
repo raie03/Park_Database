@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(201, 255, 205);
+}
+
+.title {
+    width: 60%;
+    margin: 15px auto 15px auto;
+    text-align:center;
+}
+
+.search {
+    width: 20%;
+    text-align:center;
+    margin: 0 auto 15px auto;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(219, 255, 255);
+    border-style: inset;
+    border-radius: 10px;
+}
+
+.prefecture {
+    width: 60%;
+    margin: 0 auto 15px auto;
+    padding: 5px 10px;
+    background-color: rgb(196, 237, 255);
+    border-style: inset; 
+}
+
+.parkname {
+    width: 55%;
+    margin: 0px auto 15px auto;
+}
+
+.login {
+    width: 60%;
+    margin: auto;
+    text-align: right;
+}
+
+.add {
+    width: 60%;
+    margin: 10px auto;
+    text-align: right;
+}
+
+/* ここから https://www.freecodecamp.org/japanese/news/how-to-center-anything-with-css-align-a-div-text-and-more/ 参考 */
+
+.Form {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    background-color: rgb(255, 255, 255);
+    border-style: inset;
+    border-radius: 20px;
+}
+
+.submitForm {
+    width: 400px;
+    height: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    background-color: rgb(255, 255, 255);
+    border-style: inset;
+    border-radius: 20px;
+}
+
+.addAndEditForm {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    background-color: rgb(255, 255, 255);
+    border-style: inset;
+    border-radius: 20px;
+}
+
+/* ここまで */
+
+.addressSearch {
+    width: 340px;
+    height: 50px;
+    margin: auto;
+    padding: 5px 0px;
+    text-align:center;
+    background-color: rgb(231, 252, 252);
+    border-style: dashed;
+}
+
+.button {
+    margin: 15px 0px 15px 0px;
+}
+
+.textbox {
+    margin: 10px 0px;
+}
+
+.parkInfo {
+    width: 60%;
+    margin: 0px auto 0px auto;
+    text-align:center;
+    background-color: rgb(196, 237, 255);
+    border-style: inset;
+}
+
+.parkTitle {
+    width: 95%;
+    padding: 10px 0px;
+    margin: 30px auto;
+    text-align:center;
+    background-color: rgb(143, 254, 139);
+    border-style: inset;
+    border-radius: 10px;
+    text-shadow: 3px 3px 3px #808080;
+}
+
+.parkAddAndInfo {
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    background-color: rgb(234, 255, 255);
+    border-style: inset;
+    border-radius: 10px;
+}
+
+.review {
+    width: 80%;
+    margin: 30px auto;
+    text-align:center;
+    background-color: rgb(255, 252, 172);
+    border-style: inset;
+    border-radius: 10px;
+}
+
+.reviewAndComment {
+    width: 80%;
+    padding: 3px 0px;
+    margin: 20px auto;
+    text-align:center;
+    background-color: rgb(218, 218, 218);
+    border-radius: 70px;
+}
+
+/* ここから https://kinocolog.com/css_star_rating/ 参考 引用 */
+
+.star5_rating{
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    white-space: nowrap;
+    color: #CCCCCC; /* グレーカラー 自由に設定化 */
+    /*font-size: 30px; フォントサイズ 自由に設定化 */
+}
+
+.star5_rating:before, .star5_rating:after{
+    content: '★★★★★';
+}
+
+.star5_rating:after{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ffc609; /* イエローカラー 自由に設定化 */
+}
+
+.star5_rating[data-rate="5"]:after{ width: 100%; } /* 星5 */
+.star5_rating[data-rate="4"]:after{ width: 80%; } /* 星4 */
+.star5_rating[data-rate="3"]:after{ width: 60%; } /* 星3 */
+.star5_rating[data-rate="2"]:after{ width: 40%; } /* 星2 */
+.star5_rating[data-rate="1"]:after{ width: 20%; } /* 星1 */
+
+/* ここまで */
+
+.comment {
+    width: 80%;
+    padding: 30px 10px;
+    margin: 10px auto 10px auto;
+    text-align:center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.edit {
+    margin: auto 10px auto auto;
+    text-align: right;
+}
+
+.reviewLink {
+    margin: auto 10px 10px auto;
+    text-align: right;
+}
+
+.image {
+    width: 70%;
+    border-style: solid;
+    margin: 0px 0px 30px 0px;
+    border-radius: 10px;
+}
+
+.return {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+
+.star {
+    color: #ffc609;
+}
+
+.select {
+    margin: 10px 0px;
+}
+
+.starAndComment {
+    width: 90%;
+    background-color: blue;
+    text-align: center;
+}
