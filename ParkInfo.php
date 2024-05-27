@@ -36,7 +36,7 @@
 
             print 
             "<h2>地図</h2>
-            <img src = https://maps.googleapis.com/maps/api/staticmap?center=".h($parklist["pref"])."".h($parklist["address"]).",CA&zoom=16&size=400x400&scale=2&key=AIzaSyDx2HM7XyxyLnRJL9N22VIcdvO_pbZgQkw class='image'></img>";
+            <img src = https://maps.googleapis.com/maps/api/staticmap?center=".h($parklist["pref"])."".h($parklist["address"]).",CA&zoom=16&size=400x400&scale=2&key=myapikey class='image'></img>";
         
             $st = $pdo->query("SELECT * FROM review WHERE park_id = '$parklist[id]' ORDER BY id DESC");
             $data2 = $st->fetchAll();
